@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 
-export const About = () => {
+export const About = (props) => {
+    console.log("Props: ", props);
     return (
         <Fragment>
             <h1>About this app</h1>
